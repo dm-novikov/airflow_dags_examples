@@ -1,6 +1,5 @@
 from airflow import DAG
 from airflow.operators.python_operator import PythonOperator
-from airflow_clickhouse_plugin.hooks.clickhouse_hook import ClickHouseHook
 
 import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta
